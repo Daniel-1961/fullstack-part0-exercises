@@ -16,13 +16,3 @@ sequenceDiagram
     Browser->>Server: GET /data.json (fetch updated notes list)
     Server-->>Browser: JSON notes data
     Browser->>Browser: Render updated notes list dynamically
-
-## 🔹 Explanation
-- **User action**: Submits a new note.  
-- **Browser intercepts**: JavaScript prevents full page reload.  
-- **AJAX request**: Browser sends `POST /new_note_spa` with note data in JSON.  
-- **Server response**: Confirms creation with `201 Created`.  
-- **DOM update**: Browser immediately adds the new note to the list.  
-- **Data refresh**: Browser fetches `/data.json` to ensure the list is up to date.  
-- **Rendering**: Notes list is re‑rendered dynamically without leaving the SPA.
-
