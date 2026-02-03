@@ -17,8 +17,6 @@ sequenceDiagram
     Server-->>Browser: JSON notes data
     Browser->>Browser: Render updated notes list dynamically
 
----
-
 ## 🔹 Explanation
 - **User action**: Submits a new note.  
 - **Browser intercepts**: JavaScript prevents full page reload.  
