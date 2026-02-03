@@ -9,8 +9,6 @@ sequenceDiagram
     participant Server
 
     User->>Browser: Navigate to /spa
-
----
 ## 🔹 Workflow
     Browser->>Server: GET /spa (HTML shell)
     Server-->>Browser: HTML with <div id="root"> and JS
