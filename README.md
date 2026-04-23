@@ -5,7 +5,6 @@ This repository contains my solutions for **Part 0: Fundamentals of Web Apps** f
 Each exercise is organized in its own folder, with a Markdown file (`diagram.md`) that includes the required sequence diagrams and explanations. Diagrams are written using [Mermaid](https://mermaid-js.github.io/) syntax so they render directly on GitHub.
 
 ---
-
 ## 📂 Repository Structure
 
 ```fullstack-part0-exercises/
@@ -21,7 +20,6 @@ Each exercise is organized in its own folder, with a Markdown file (`diagram.md`
 ```
 
 ---
-
 ## 📝 Exercises
 
 - **0.4: New Note Diagram (Traditional)**  
@@ -34,7 +32,6 @@ Each exercise is organized in its own folder, with a Markdown file (`diagram.md`
   Sequence diagram of creating a new note in the SPA version.
 
 ---
-
 ## ✅ Notes
 - All diagrams are created in Markdown using Mermaid syntax.  
 - The repo is public for course submission and review.  
