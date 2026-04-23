@@ -1,5 +1,4 @@
 # Fullstack Open – Part 0 Exercises
-
 This repository contains my solutions for **Part 0: Fundamentals of Web Apps** from the [Fullstack Open course](https://fullstackopen.com/en/part0/fundamentals_of_web_apps).
 
 Each exercise is organized in its own folder, with a Markdown file (`diagram.md`) that includes the required sequence diagrams and explanations. Diagrams are written using [Mermaid](https://mermaid-js.github.io/) syntax so they render directly on GitHub.
